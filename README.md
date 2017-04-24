@@ -1,2 +1,3 @@
-# js_platzi_new_course
-This repository stores some examples to new features where developed to JS.
+# List of Courses:
+1. Fundamentos de Javascript
+2. Curso de SQL y MYSQL
