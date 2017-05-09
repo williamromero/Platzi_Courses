@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "PlatziApp" %></title>
+  <%= javascript_include_tag controller_name, 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag controller_name %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <%= image_path 'Logo.png' %>
+	      </a>
+	    </div>
+	  </div>
+	</nav>
+	<div class="container">
+		<%= yield %>
+	</div>
+
+<footer>
+	<p><%= @greeting %> Guatemala </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+// Place all the styles related to the playlists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body { 
+	background-color: #eeeeee; 
+}
+
+a { 
+	color: #fff; 
+}
+
+p { 
+	font-size: 14px; 
+}
+
+footer {
+  background-color: #666;
+  bottom: 0;
+  color: #FFF;
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+
+  p {
+  	display: flex;
+  	font-size: 14px;
+  	margin: 0 auto;
+  	text-align: center;
+  }
+}

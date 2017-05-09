@@ -1,0 +1,4 @@
+$('.delete_playlist').bind('ajax:success', function() {
+   alert('This record was deleted');
+   $(this).closest('tr').fadeOut();
+});

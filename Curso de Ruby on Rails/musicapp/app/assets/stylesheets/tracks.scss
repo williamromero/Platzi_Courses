@@ -1,0 +1,47 @@
+// Place all the styles related to the tracks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/BEBAS___-webfont.eot');
+    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BEBAS___-webfont.woff') format('woff'),
+         url('fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// h1 { font-family: 'bebasregular'; }
+body { 
+	background-color: #eeeeee; 
+}
+
+a { 
+	color: #fff; 
+}
+
+p { 
+	font-size: 14px; 
+}
+
+footer {
+  background-color: #666;
+  bottom: 0;
+  color: #FFF;
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+
+  p {
+  	display: flex;
+  	font-size: 14px;
+  	margin: 0 auto;
+  	text-align: center;
+  }
+}

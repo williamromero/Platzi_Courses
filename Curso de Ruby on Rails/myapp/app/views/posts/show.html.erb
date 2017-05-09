@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%= @postsh.title %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @postsh.article %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @postsh.created_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_post_path(@postsh) %> |
+<%= link_to 'Back', posts_path %>

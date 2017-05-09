@@ -1,0 +1,15 @@
+<%= form_for(@playnew) do |f| %>
+	
+	<table>
+		<tr>
+			<td><%= f.label :name %></td>
+			<td><%= f.text_field :name %></td>
+		</tr>
+		<tr>
+			<td><%= f.label :number_of_votes %></td>
+			<td><%= f.text_field :number_of_votes %></td>
+		</tr>
+	</table>
+
+	<%= f.submit "Guardar", class:"btn btn-danger" %>
+<% end %>

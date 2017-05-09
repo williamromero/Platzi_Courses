@@ -1,0 +1,19 @@
+<h3> Detalle de Registro No. <%= @playlist_show.id %>
+<hr/>
+
+<table class="table table-striped table-bordered">
+	<thead>
+		<tr>
+			<th><p>Id</p></th>
+			<th><p>Nombre</p></th>
+			<th><p>Número de Votos</p></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><p> <%= @playlist_show.id %></p></td>
+			<td><p> <%= @playlist_show.name %></p></td>
+			<td><p> <%= @playlist_show.number_of_votes %></p></td>
+		</tr>
+	</tbody>
+</table>
